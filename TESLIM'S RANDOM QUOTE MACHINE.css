@@ -1,0 +1,77 @@
+body {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+}
+#quote-box {
+    width: 50vw;
+    height: 50vh;
+    background-color: white;
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+    right: 25vw;
+}
+#text {
+    width: 50vw;
+    height: 20vh;
+    position: absolute;
+    top: 5vh;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+.author {
+    width: 20vw;
+    height: 5vh;
+    position: absolute;
+    right: 0;
+    top: 28vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#quote-box a img {
+    position: absolute;
+    top: 40vh;
+    left: 7vw;
+    width: 5vw;
+    height: 5vh;
+}
+#new-quote {
+    position: absolute;
+    top: 40vh;
+    right: 7vw;
+    width: 12vw;
+    height: 5vh;
+    color: white;
+    border: none;
+    border-radius: 0.3vh 0.3vh 0.3vh 0.3vh;
+}
+.by {
+    position: absolute;
+    top:75vh;
+    text-align: center;
+    left: 47vw;
+color: white;
+}
+@media (min-width: 320px) and (max-width: 700px) {
+    #text {
+        font-size: 20px;
+    }
+    #quote-box {
+        width: 70vw;
+        position: absolute;
+        top: 25vh;
+        left: 15vw;
+        right: 15vw;
+    }
+    #new-quote {
+        width: 17vw;
+        height: 6vh;
+    }
+    #text {
+        text-align: center;
+        width: 70vw;
+       
+    }
+}
